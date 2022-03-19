@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 70px;
+  background-color: rgb(2, 80, 196);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 16px;
+}
+
+main form {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lavender;
+}
+
+.pills {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pill {
+  margin: 10px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #dc143c;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.pill .word {
+  margin-left: 15px;
+}
+.pill .amount {
+  margin: 10px;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  border-radius: 18px;
+  background-color: #fff;
+  color: #dc143c;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

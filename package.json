@@ -1,0 +1,12 @@
+{
+  "name": "most-used-words",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^16.0.6"
+  }
+}
